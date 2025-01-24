@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CafeDine</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/0.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="recepie.html">Recipes</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="reservationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reservation</a>
+          <ul class="dropdown-menu" aria-labelledby="reservationDropdown">
+            <li><a class="dropdown-item" href="reservation.html">Reservation</a></li>
+            <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+            <li><a class="dropdown-item" href="shipping.html">Shipping</a></li>
+            <li><a class="dropdown-item" href="payment.html">Payment</a></li>
+            <li><a class="dropdown-item" href="confirmation.html">Confirmation</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+          <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="single.html">Blog Single</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- About Us Banner -->
+<section class="about-banner">
+    <div class="banner-overlay">
+      <img src="img/bg-2.jpg" alt="Cafe Banner">
+      <div class="banner-text text-center">
+        <h1>Cart Page</h1>
+      </div>
+    </div>
+  </section>
+
+
+
+<div class="container-3">
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="product-image">
+                        <img src="img/popular-sm-2.jpeg" alt="Lemon Rosemary Chicken">
+                    </div>
+                    Lemon Rosemary Chicken
+                </td>
+                <td>$79.00</td>
+                <td>
+                    <div class="quantity-control">
+                        <button>-</button>
+                        <input type="text" value="1">
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>$79.00 <span class="remove-item">×</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-image">
+                        <img src="img/popular-sm-2.jpeg" alt="Seasonal Soup">
+                    </div>
+                    Seasonal Soup
+                </td>
+                <td>$79.00</td>
+                <td>
+                    <div class="quantity-control">
+                        <button>-</button>
+                        <input type="text" value="1">
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>$79.00 <span class="remove-item">×</span></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-image">
+                        <img src="img/popular-sm-2.jpeg" alt="Pizza Pane">
+                    </div>
+                    Pizza Pane
+                </td>
+                <td>$79.00</td>
+                <td>
+                    <div class="quantity-control">
+                        <button>-</button>
+                        <input type="text" value="1">
+                        <button>+</button>
+                    </div>
+                </td>
+                <td>$79.00 <span class="remove-item">×</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="coupon">
+        <input type="text" placeholder="Enter your coupon">
+        <button>APPLY COUPON</button>
+    </div>
+    <div class="update-cart">
+        <button>UPDATE CART</button>
+    </div>
+     <!-- Order Summary -->
+     <div class="order-summary">
+      <h3>Order Summary</h3>
+      <p>Subtotal: <span>$237.00</span></p>
+      <p>Shipping & Handling: <span>$0</span></p>
+      <p>Estimated Tax: <span>$0</span></p>
+      <p class="total">Grand Total: <span>USD $237.00</span></p>
+      <button class="checkout-button">Proceed to Checkout</button>
+  </div>
+</div>
+
+ <!-- Footer Section -->
+ <footer class="footer-section">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, nam!</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> +1 987 654 3210</p>
+                <p><i class="fas fa-envelope"></i> mail@support.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 Altschul, New York, NY 10027-0000</p>
+            </div>
+            <div class="footer-column">
+                <h3>Opening Hours</h3>
+                <p>Monday - Thursday<br><span>10:00 AM – 11:00 PM</span></p>
+                <p>Friday - Sunday<br><span>12:00 AM – 03:00 AM</span></p>
+            </div>
+        </div>
+        <div class="newsletter">
+            <p>Get Latest Food Recipe At Your Inbox</p>
+            <div class="email-box">
+                <input type="email" placeholder="Enter Email">
+                <button type="submit"><i class="fas fa-envelope"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright © 2019 a theme by <a href="#">themefisher.com</a></p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Use of Terms</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- Bootstrap JS -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

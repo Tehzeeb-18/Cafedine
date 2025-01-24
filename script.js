@@ -38,3 +38,4 @@ function resetAutoSlide() {
     updateSlide();
   }, 6000);
 }
+
