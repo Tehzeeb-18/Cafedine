@@ -76,7 +76,7 @@
     /* Dropdown hover styles */
     .dropdown:hover .dropdown-menu {
       display: block;
-      margin-top: 0; /* Prevent gaps */
+      margin-top: 0; 
     }
 
     .dropdown-menu {
@@ -142,17 +142,17 @@
 /* Features Section */
 .features {
   position: relative;
-  margin-top: -100px; /* Overlap with carousel */
-  z-index: 10; /* Place above the carousel */
+  margin-top: -100px; 
+  z-index: 10;
   height: 50vh;
 }
 
 .features .container {
-  background: #fff; /* White background for the feature section */
+  background: #fff; 
   padding: 2rem 1rem;
   height: 40vh;
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .features .feature-box {
@@ -161,20 +161,20 @@
 }
 
 .features .feature-box img {
-  max-width: 60px; /* Icon size */
+  max-width: 60px; 
   height: auto;
   margin-bottom: 1rem;
 }
 
 .features .feature-box h4 {
   font-size: 1.25rem;
-  color: #333; /* Dark text */
+  color: #333; 
   margin-bottom: 0.5rem;
 }
 
 .features .feature-box p {
   font-size: 0.9rem;
-  color: #6c757d; /* Muted text */
+  color: #6c757d; 
 }
 
 /* About Section */
@@ -214,70 +214,70 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .features {
-      margin-top: -50px; /* Adjust overlap for smaller screens */
-      height: auto; /* Allow height to adapt to content */
+      margin-top: -50px; 
+      height: auto;
   }
 
   .features .container {
-      padding: 1rem; /* Reduce padding */
-      height: auto; /* Content-based height */
-      box-shadow: none; /* Simplify the shadow effect for smaller screens */
+      padding: 1rem; 
+      height: auto; 
+      box-shadow: none; 
   }
 
   .features .feature-box img {
-      max-width: 50px; /* Slightly smaller icons */
+      max-width: 50px; 
   }
 
   .features .feature-box h4 {
-      font-size: 1rem; /* Reduce text size */
+      font-size: 1rem; 
   }
 
   .features .feature-box p {
-      font-size: 0.8rem; /* Smaller paragraph text */
+      font-size: 0.8rem; 
   }
 
   .about-section h5 {
-      font-size: 1rem; /* Smaller subtitle */
+      font-size: 1rem;
   }
 
   .about-section h2 {
-      font-size: 1.25rem; /* Smaller main heading */
-      margin-bottom: 1.5rem; /* Adjust spacing */
+      font-size: 1.25rem; 
+      margin-bottom: 1.5rem; 
   }
 
   .about-card {
-      margin-bottom: 1.5rem; /* Add spacing between cards */
+      margin-bottom: 1.5rem; 
   }
 
   .about-card img {
-      max-width: 100%; /* Full width on smaller screens */
-      height: auto; /* Maintain aspect ratio */
+      max-width: 100%; 
+      height: auto; 
   }
 
   .about-card h4 {
-      font-size: 1rem; /* Smaller card heading */
+      font-size: 1rem; 
   }
 
   .about-card p {
-      font-size: 0.8rem; /* Smaller paragraph text */
+      font-size: 0.8rem; 
   }
 }
 
 @media (max-width: 576px) {
   .features .feature-box img {
-      max-width: 40px; /* Further reduce icon size */
+      max-width: 40px; 
   }
 
   .about-section h2 {
-      font-size: 1.1rem; /* Adjust heading for extra small screens */
+      font-size: 1.1rem; 
   }
 
   .about-card h4 {
-      font-size: 0.9rem; /* Smaller text for extra small screens */
+      font-size: 0.9rem; 
   }
 
   .about-card p {
-      font-size: 0.75rem; /* Compact paragraph text */
+      font-size: 0.75rem; 
   }
 }
 
@@ -285,7 +285,7 @@
 .hero-section {
     position: relative;
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,7 +296,7 @@
   .hero-image {
     width: 100%;
     height: 100vh;
-    object-fit: cover; /* Ensures the image scales correctly */
+    object-fit: cover; 
   }
   
   .hero-content {
@@ -516,8 +516,8 @@
     }
     .phone-mockup {
     position: relative;
-    width: 200px; /* Adjust based on your mockup dimensions */
-    height: 400px; /* Adjust based on your mockup dimensions */
+    width: 200px; 
+    height: 400px; 
     margin: auto;
 }
 
@@ -529,10 +529,10 @@
 
 .phone-mockup .app-screenshot {
     position: absolute;
-    top: 15%; /* Adjust based on the screen area of the mockup */
-    left: 10%; /* Adjust based on the screen area of the mockup */
-    width: 80%; /* Adjust based on the screen area of the mockup */
-    height: 70%; /* Adjust based on the screen area of the mockup */
+    top: 15%; 
+    left: 10%; 
+    width: 80%; 
+    height: 70%; 
     object-fit: cover;
     border-radius: 5px;
 }
